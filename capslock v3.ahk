@@ -1,10 +1,10 @@
 ﻿#Requires AutoHotkey v2.0
 
 ; 이동 거리 설정
-global initial_move := 5    ; 초기 이동 거리
-global max_move := 32         ; 최대 이동 거리
+global initial_move := 3    ; 초기 이동 거리
+global max_move := 30         ; 최대 이동 거리
 global accel_rate := 1.05     ; 가속도 비율
-global decel_rate := 0.95     ; 감속도 비율
+global decel_rate := 0.1     ; 감속도 비율
 global diagonal_factor := 0.7 ; 대각선 이동 시 사용할 계수
 global sleep_duration := 8    ; Sleep 시간 (ms)
 
